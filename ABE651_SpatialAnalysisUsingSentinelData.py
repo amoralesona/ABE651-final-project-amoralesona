@@ -13,32 +13,12 @@ Last time updated: Friday, May 7, 2021
 
 # import required modules
 import rasterio
-from rasterio import plot
-
 import matplotlib.pyplot as plt
-import matplotlib as mpl
-import matplotlib.cm as cm
-import os
 import geopandas as gpd
-import earthpy as et
-import earthpy.plot as ep
-from shapely.geometry import mapping, shape
-import fiona
-from pyproj import Proj, transform
 from osgeo import gdal
 import numpy as np
-
-from rasterio.plot import show_hist
 from rasterio.plot import show
-from rasterio.mask import mask
-
-import rioxarray as rxr
-import rasterstats
 from matplotlib.ticker import FormatStrFormatter #For the 2 decimals in plots
-from rasterstats import zonal_stats
-import matplotlib.ticker as ticker 
-
-import seaborn as sns
 import pandas as pd
 
 
