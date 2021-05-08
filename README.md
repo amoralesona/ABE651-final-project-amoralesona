@@ -1,8 +1,28 @@
 # ABE651-final-project-amoralesona
-By: Ana Morales
+Author: Ana Morales
 Last time updated: Friday, May 7th, 2021
 
-Script created for handling and processing inputs and outputs generated during vegetative indices calculation.
+GENERAL INFORMATION::::::::::::::::::::::::::::::::::::::::::
+
+- Program created for handling and processing inputs and outputs generated during calculation of vegetative indices derived from Sentinel Images.
+- Vegetative indices included in this program are: 
+	1)NDVI (NIR-R / NIR+R)
+	2)GNDVI (NIR-G / NIR+G)
+	3)PPRB (G-B/G+B)
+- Program was created with the intention of handling and processing Sentinel imagery.
+- Program requires name and path of raster (e.g. Sentinel images) and vector data (e.g. boundary of area of interest) that will be used.
+- Program was created in Spyder, which is an open-source crossplatform for scientific programming in the Python language.
+- The modules used for creating this program were:
+	- pandas as pd
+	- numpy as np
+	- matplotlib.pyplot as plt
+	- FormatStrFormatter (imported from matplotlib.ticker)  #For the 2 decimals in plots
+	- rasterio
+	- show (imported from rasterio.plot)
+	- gdal (imported from osgeo)
+	- geopandas as gpd (geopandas requires a special installation, follow this tutorial for instructions: https://www.youtube.com/watch?v=H1A5mZDoXYg&t=92s) 
+
+FUNCTIONS AVAILABLE IN THE PROGRAM:::::::::::::::::::::::::::::
 
 The program has the following functions for handling and processing raster and vector data:
 
