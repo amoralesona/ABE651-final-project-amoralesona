@@ -6,9 +6,9 @@ GENERAL INFORMATION::::::::::::::::::::::::::::::::::::::::::
 
 - Program created for handling and processing inputs and outputs generated during calculation of vegetative indices derived from Sentinel Images.
 - Vegetative indices included in this program are: 
-	1)NDVI (NIR-R / NIR+R)
-	2)GNDVI (NIR-G / NIR+G)
-	3)PPRB (G-B/G+B)
+	- NDVI (NIR-R / NIR+R)
+	- GNDVI (NIR-G / NIR+G)
+	- PPRB (G-B/G+B)
 - Program was created with the intention of handling and processing Sentinel imagery.
 - Program requires name and path of raster (e.g. Sentinel images) and vector data (e.g. boundary of area of interest) that will be used.
 - Program was created in Spyder, which is an open-source crossplatform for scientific programming in the Python language.
